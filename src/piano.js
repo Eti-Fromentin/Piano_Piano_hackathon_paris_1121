@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
-import 'react-piano/dist/styles.css';
+// import 'react-piano/dist/styles.css';
+import './piano.css'
 
 function PianoKeyboard() {
 

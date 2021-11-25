@@ -1,7 +1,7 @@
 
 import './App.css';
 import PianoKeyboard from './piano';
-import WhiteKey from './whiteKey';
+// import WhiteKey from './whiteKey';
 
 function App() {
   return (
