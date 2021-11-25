@@ -12,7 +12,7 @@ function Header() {
  
   <div>Welcome</div>
   <div>Playground</div>
-  <div>Piano Heroes</div>
+  <div>Piano Heroe</div>
   <br></br>
 
 </nav>
