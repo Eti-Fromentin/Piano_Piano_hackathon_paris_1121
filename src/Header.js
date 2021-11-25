@@ -8,11 +8,10 @@ function Header() {
   return (
 
 <nav className={styles.navBar} >
- 
+
   <NavLink to="/"> <img className={styles.logo} src={logo} alt='logo' /> </NavLink>
   <NavLink to="/Playground">Playground</NavLink>
   <NavLink to="/Piano Hero">Piano Hero</NavLink>
-  <br></br>
 
 </nav>
 );
