@@ -7,8 +7,8 @@ import PianoKeyboard from './piano';
 function App() {
   return (
     <div className="App">
-    <PianoKeyboard />
      <PianoBackground/>
+    <PianoKeyboard />
     </div>
   );
 }
