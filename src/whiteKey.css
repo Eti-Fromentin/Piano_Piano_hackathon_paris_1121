@@ -1,0 +1,12 @@
+.whiteKey {
+  position: relative;
+  border: 2px solid black;
+  border-radius: .5rem;
+  transition: all .07s ease;
+  display: block;
+  box-sizing: border-box;
+  height: 20em;
+  width: 5em;
+  background-color: ivory;
+  
+  }

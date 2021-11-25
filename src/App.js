@@ -4,6 +4,7 @@ import React from 'react'
 import PianoBackground from './Components/Background'
 
 import './App.css';
+import PianoKeyboard from './piano';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       </div>
       <LandinPage />
+    <PianoKeyboard />
      <PianoBackground/>
     </div>
   );
