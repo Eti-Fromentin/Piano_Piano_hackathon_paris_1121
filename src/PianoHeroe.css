@@ -1,116 +1,103 @@
 .damier {
     border : solid black;
     display: flex;
+height: 60vh;
+justify-content: center;
+align-items: center;
 }
 
-.A1 {
-    border: solid black;
+#case {
+ width: 200px;
+ height: 325px;
+ border: solid black;
+ justify-content: center;
+ align-items: center;
+ border-radius: 25%;
+}
+.signeQ {
+   
+   display:flex;
+   
 }
 
-.A2 {
+.signeZ {
     border: solid black;
+    display: none;
 }
 
-.A3 {
+.signeS {
     border: solid black;
+    display: none;
 }
 
-.A4 {
+.signeD {
     border: solid black;
+    display: none;
 }
 
-.A5 {
+.signeR {
     border: solid black;
+    display: none;
 }
 
-.A6 {
+.signeF {
     border: solid black;
+    display: none;
 }
 
-.A7 {
+.signeT {
     border: solid black;
+    display: none;
 }
 
-.A8 {
+.signeG {
     border: solid black;
+    display: none;
 }
 
-.B1 {
+.signeH {
     border: solid black;
+    display: none;
 }
 
-.B2 {
+.signeU {
     border: solid black;
+    display: none;
 }
 
-.B3 {
+.signeJ {
     border: solid black;
+    display: none;
 }
 
-.B4 {
+.signeI {
     border: solid black;
+    display: none;
 }
 
-.B5 {
+.signeK {
     border: solid black;
+    display: none;
 }
 
-.B6 {
+.signeO {
     border: solid black;
+    display: none;
 }
 
-.B7 {
+.signeL {
     border: solid black;
+    display: none;
 }
-.B8 {
+.signeM {
     border: solid black;
+    display: none;
 }
-.C1 {
+.signeP {
     border: solid black;
+    display: none;
 }
-.C2 {
+.signeù {
     border: solid black;
+    display: none;
 }
-.C3 {
-    border: solid black;
-}
-.C4 {
-    border: solid black;
-}
-.C5 {
-    border: solid black;
-}
-.C6 {
-    border: solid black;
-}
-.C7 {
-    border: solid black;
-}
-.C8 {
-    border: solid black;
-}
-.D1 {
-    border: solid black;
-}
-.D2 {
-    border: solid black;
-}
-.D3 {
-    border: solid black;
-}
-.D4 {
-    border: solid black;
-}
-.D5 {
-    border: solid black;
-}
-.D6 {
-    border: solid black;
-}
-.D7 {
-    border: solid black;
-}
-.D8 {
-    border: solid black;
-}
-
