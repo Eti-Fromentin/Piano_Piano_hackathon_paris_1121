@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Piano, KeyboardShortcuts, MidiNumbers } from "react-piano";
 // import "react-piano/dist/styles.css";
 
 import SoundfontProvider from "./SoundfontProvider";
+
+import "react-piano/dist/styles.css";
 import "./piano.css";
 
 function PianoKeyboard() {
   const audioContext = new (window.AudioContext || window.webkitAudioContext)();
   const soundfontHostname = "https://d1pzp51pvbm36p.cloudfront.net";
+  const [ notesPlayed, setNotesPlayed] = useState([])
 
   const Keyshortcuts = {
     HOME_ROW: [{
@@ -67,13 +70,16 @@ function PianoKeyboard() {
     keyboardConfig: Keyshortcuts.HOME_ROW,
   });
 
+  useEffect(() => {
+  
+  }, [])
 
     return (
       <SoundfontProvider
         instrumentName="acoustic_grand_piano"
         audioContext={audioContext}
         hostname={soundfontHostname}
-        render={({ isLoading, playNote, stopNote }) => (
+        render={({ isLoading, playNote, stopNote, onPlayNoteInput }) => (
           <Piano
             noteRange={noteRange}
             width={1500}
@@ -81,7 +87,9 @@ function PianoKeyboard() {
             stopNote={stopNote}
             disabled={isLoading}
             keyboardShortcuts={keyboardShortcuts}
+            onPlayNoteInput={onPlayNoteInput}
           />
+
         )}
       />
     
