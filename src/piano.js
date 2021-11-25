@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Piano, KeyboardShortcuts, MidiNumbers } from "react-piano";
-// import "react-piano/dist/styles.css";
 
 import SoundfontProvider from "./SoundfontProvider";
 
-import "react-piano/dist/styles.css";
 import "./piano.css";
 
 function PianoKeyboard() {
