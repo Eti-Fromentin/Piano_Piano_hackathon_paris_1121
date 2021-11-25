@@ -1,10 +1,11 @@
 .ReactPiano__Keyboard {
   z-index: 5;
-  position: relative;
+  position: fixed;
   display: flex;
     width: 100vw !important;
     height: 40vh !important;
     background-color: aquamarine;
+    bottom: 0;
 }
 
 
