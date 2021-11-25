@@ -1,0 +1,22 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.logo {
+    width: 50px;
+    display: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+}
