@@ -1,8 +1,8 @@
 .ReactPiano__Keyboard {
   position: relative;
   display: flex;
-    width: 100vw;
-    height: 20vh;
+    width: 100vw !important;
+    height: 40vh !important;
     background-color: aquamarine;
 }
 
