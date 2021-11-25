@@ -1,6 +1,6 @@
 import React from 'react'
 
-function black_key() {
+function BlackKey() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function black_key() {
     )
 }
 
-export default black_key;
+export default BlackKey;
