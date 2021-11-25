@@ -1,8 +1,11 @@
 import React from 'react'
 
-function WhiteKey() {
+import './whiteKey.css'
+
+function WhiteKey({ classname, note, key, }) {
     return (
-        <div className='whiteKey<'>
+        <div className='whiteKey '>
+            
             hello
         </div>
     )
