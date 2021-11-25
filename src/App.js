@@ -11,8 +11,8 @@ function App() {
      <div>
       <Header />
       </div>
-    <PianoKeyboard />
      <PianoBackground/>
+    <PianoKeyboard />
     </div>
   );
 }
