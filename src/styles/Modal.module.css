@@ -1,14 +1,10 @@
 /*css mobile style*/
 
-.wrapper {
+  .container {
     display: block;
-    color: black;
-    background-position-x: center;
-    display: block;
-    padding-bottom: 30%;
-    margin-top: 5%;
+    margin-top: 10vh;
   }
-  
+
   .labelName {
     justify-content: center;
     display: flex;
@@ -16,20 +12,19 @@
     font-style: oblique;
     color: #f3f3f3;
     height: 20%;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 5%;
   }
   
   .windowName {
-    padding-top: 10px;
     padding-bottom: 3%;
-    padding-right: 18%;
+    padding-right: 15%;
     padding-left: 2%;
     border-left-width: 40%;
     display: block;
     margin-left: auto;
     margin-right: 30%;
-    margin-top: 13%;
+    margin-top: 2vh;
     width: 6rem;
     color: black;
   }
@@ -38,11 +33,11 @@
     border-radius: 10%;
     color: white;
     height: 30%;
-    width: 30%;
+    width: 35%;
     padding: 6px;
     margin-top: 30px;
     margin-left: 20px;
-    background-image: linear-gradient(225deg, #404702 0%, #3c281d 50%, #6f0b00 100%, #e67a00);
+    background-image: linear-gradient(225deg, black 0%, grey 50%, black 100%, #e67a00);
     display: block;
     margin-right: auto;
     margin-left: 30%;
@@ -59,16 +54,6 @@
   
   @media only screen and (min-width: 700px) {
   
-  
-    .wrapper {
-      display: block;
-      background-repeat: no-repeat;
-      background-size: 25%;
-      background-position-x: center;
-      padding-top: 5%;
-      background-position-x: center;
-      margin: 3% auto 0 auto;
-    }
   
     .modalHeader {
       display: flex;
@@ -87,8 +72,6 @@
       margin-top: 2%;
     }
   
-  
-  
     .windowName {
       display: block;
       position: relative;
@@ -98,11 +81,9 @@
       padding: .7%;
     }
   
-  
     .nextButton {
       border-radius: 10px;
       width: 10%;
-      background-image: linear-gradient(225deg, #404702 0%, #3c281d 50%, #6f0b00 100%, #e67a00);
       color: white;
       display: block;
       margin-right: auto;

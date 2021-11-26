@@ -7,13 +7,13 @@ function Modal({ pop, GoToPlayground, setUserName }) {
 
   return pop ? (
     <React.Fragment>
-      <div className={styles.wrapper}>
+      <div className={styles.container}>
         <label className={styles.labelName} htmlform="name" htmlFor="name">
           Enter your Name
         </label>
         <input className={styles.windowName} type="text" id="name" name="name" onChange={handleChange} />
         <button className={styles.nextButton} onClick={GoToPlayground}>
-          Next
+          Next ➡️
         </button>
       </div>
     </React.Fragment>

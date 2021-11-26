@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './assets/logo.png'
-import styles from './Header.module.css'
+import styles from './styles/Header.module.css'
 import {NavLink} from 'react-router-dom'
 
-function Header() {
+function Header({userName}) {
 
   return (
 
@@ -11,8 +11,7 @@ function Header() {
 
   <NavLink to="/"> <img className={styles.logo} src={logo} alt='logo' /> </NavLink>
   <NavLink to="/Playground">Playground</NavLink>
-  <NavLink to="/PianoHeroe">Skilled Player</NavLink>
-  <br></br>
+  <NavLink to="/Training">{userName}'s Training</NavLink>
 
 </nav>
 );

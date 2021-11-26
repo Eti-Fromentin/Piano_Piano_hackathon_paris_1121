@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Routes, Route} from 'react-router-dom'
 
 import Header from './Header.js'
@@ -11,14 +11,16 @@ import './App.css';
 
 
 function App() {
+  const [userName, setUserName] = useState('');
+
   return (
     <div className="App">
-      <Header />
+      <Header userName={userName}/>
      <PianoBackground/>
     <Routes>
-      <Route path="/" element={<Welcome />}/>
+      <Route path="/" element={<Welcome userName={userName} setUserName={setUserName} />}/>
       <Route path="/Playground" element={<PianoKeyboard />} />
-      <Route path="/PianoHeroe" element={<PianoHeroe />} /> 
+      <Route path="/Training" element={<PianoHeroe />} />
     </Routes>
     </div>
   );
