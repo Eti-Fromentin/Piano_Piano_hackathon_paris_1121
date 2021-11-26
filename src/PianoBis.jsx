@@ -81,7 +81,7 @@ const Keyshortcuts = {
       keyboardConfig: Keyshortcuts.HOME_ROW,
     });
 
-class pianoBis extends React.Component {
+class PianoBis extends React.Component {
   state = {
     recording: {
       mode: 'RECORDING',
@@ -188,4 +188,4 @@ class pianoBis extends React.Component {
   }
 }
 
-export default pianoBis;
+export default PianoBis;
