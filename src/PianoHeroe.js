@@ -7,7 +7,7 @@ import "swiper/swiper.min.css";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
-import PianoKeyboard from './piano'
+import pianoBis from './pianoBis'
 
 import "./PianoHeroe.css";
 
@@ -53,7 +53,7 @@ function PianoHeroe() {
         </Swiper>
       </div>}
       <div className="PianoPiano">
-      <PianoKeyboard />
+      <pianoBis />
       </div>
     </section>
   );
