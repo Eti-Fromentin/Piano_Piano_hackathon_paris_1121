@@ -4,7 +4,7 @@ import {Routes, Route} from 'react-router-dom'
 import Header from './Header.js'
 import PianoBackground from './Components/Background'
 import PianoKeyboard from './piano';
-import Welcome from './WelcomePage.js';
+import Welcome from './WelcomePage';
 import PianoHeroe from './PianoHeroe'
 
 import './App.css';
