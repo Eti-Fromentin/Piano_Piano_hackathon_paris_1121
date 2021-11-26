@@ -1,0 +1,53 @@
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f3f1ef;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #f3f1ef;
+}
+
+.homeButton {
+display: block;
+    margin: auto;
+    margin-top: 40vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    font-size: xx-large;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: all 0.7s;
+    background-image: linear-gradient(225deg, white 0%, grey 50%, black 100%, #e67a00);
+  }
+  .homeButton:hover::after {
+    transform: rotate(150deg);
+  }
+
+  
+@media only screen and (min-width: 700px) {
+
+  h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #f3f1ef;
+  }
+
+    .homeButton {
+      display: block;
+      margin-top: 45vh;
+      overflow: hidden;
+      border-radius: 30px;
+      font-size: xx-large;
+      color: #f3f3f3;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+  
+    .homeButton:hover::after {
+      transform: rotate(150deg);
+    }
+  }
+  

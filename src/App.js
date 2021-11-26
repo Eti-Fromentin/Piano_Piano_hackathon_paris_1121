@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'
+import {Routes, Route} from 'react-router-dom'
+
+import Header from './Header.js'
+import PianoBackground from './Components/Background'
+import PianoKeyboard from './piano';
+import Welcome from './WelcomePage';
+import PianoHeroe from './PianoHeroe'
+
 import './App.css';
 
+
 function App() {
+  const [userName, setUserName] = useState('');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header userName={userName}/>
+     <PianoBackground/>
+    <Routes>
+      <Route path="/" element={<Welcome userName={userName} setUserName={setUserName} />}/>
+      <Route path="/Playground" element={<PianoKeyboard />} />
+      <Route path="/Training" element={<PianoHeroe />} />
+    </Routes>
     </div>
   );
 }
