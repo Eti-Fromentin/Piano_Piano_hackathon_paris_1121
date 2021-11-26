@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-
 import PianoBis from "./PianoBis";
 
 import "./PianoHeroe.css";
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 function PianoHeroe() {
 
