@@ -1,14 +1,5 @@
 /*css mobile style*/
 
-.wrapper {
-    display: block;
-    color: black;
-    background-position-x: center;
-    display: block;
-    padding-bottom: 30%;
-    margin-top: 5%;
-  }
-  
   .labelName {
     justify-content: center;
     display: flex;
@@ -29,7 +20,7 @@
     display: block;
     margin-left: auto;
     margin-right: 30%;
-    margin-top: 13%;
+    margin-top: 2vh;
     width: 6rem;
     color: black;
   }
@@ -59,16 +50,6 @@
   
   @media only screen and (min-width: 700px) {
   
-  
-    .wrapper {
-      display: block;
-      background-repeat: no-repeat;
-      background-size: 25%;
-      background-position-x: center;
-      padding-top: 5%;
-      background-position-x: center;
-      margin: 3% auto 0 auto;
-    }
   
     .modalHeader {
       display: flex;

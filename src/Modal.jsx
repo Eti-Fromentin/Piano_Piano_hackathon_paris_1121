@@ -7,7 +7,7 @@ function Modal({ pop, GoToPlayground, setUserName }) {
 
   return pop ? (
     <React.Fragment>
-      <div className={styles.wrapper}>
+      <div>
         <label className={styles.labelName} htmlform="name" htmlFor="name">
           Enter your Name
         </label>
