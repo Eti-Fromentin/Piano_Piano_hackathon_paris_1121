@@ -15,11 +15,15 @@ function PianoHeroe() {
 
     
   const lettresDeHélise = ["G", "T", "G", "T", "G", "S", "F", "D", "Q"];
+  const frereJacques = ["H","J","K","H","H","J","K","H","K","O","M","K","O","M","M","P","M","O","K","H","H","D","H","H","D","H"]
+  const starWarsMainTheme = ["D","J","H","G","F","D","J","H","G","F","D","J","H","G","H","F"]
+  const starWarsDarkTheme = ["K", "K","K", "H","M","K","H","M","K"]
   const [displayCard, setDisplayCard] = useState(false);
 
   return (
-    <section class="damier">
-        <div class="cardandButton">
+    <section className="damier">
+        <div className="cardandButton">
+            <div className="buttons" >
       <button class="button"
         onClick={() => {
           setDisplayCard(!displayCard);
@@ -27,12 +31,15 @@ function PianoHeroe() {
       >
         Lettre à Elise
       </button>
+      <button class="button"> Frère Jacques</button> 
+      <button class="button"> Star Wars</button> 
+      </div>
       {displayCard &&   <div class="lineA">
       <Swiper
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 1000,
+            delay: 500,
             disableOnInteraction: false,
           }}
           pagination={{
