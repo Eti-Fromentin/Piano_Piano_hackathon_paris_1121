@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Navigate } from 'react-router';
+import { useNavigate } from 'react-router';
 
 import UserNameChoice from './UserNameChoice';
 
@@ -13,24 +13,25 @@ function Welcome() {
         changePop(!pop);
     }
 
-
-const goToPlayground = () => {
+    let navigate = useNavigate();
+    
+    const GoToPlayground = () => {
     localStorage.removeItem('username');
     localStorage.setItem('username', userName);
-    // Navigate({Playground})
+    navigate("/Playground");
 };
 
 return(
     <div>
         <div>
-            <h1>Welcome to Piano Piano</h1>
+            <h1>Welcome {userName} to Piano Piano</h1>
         </div>
         <p> Are you ready to play some piano notes ? </p>
 
         <button className={styles.homeButton} onClick={toggle}>
-        ENTER
+        PLAY
         </button>
-        <UserNameChoice pop={pop} toggle={toggle} goToPlayground={goToPlayground} setUserName={setUserName} />
+        <UserNameChoice pop={pop} toggle={toggle} GoToPlayground={GoToPlayground} setUserName={setUserName} />
     </div>
     )
 };
