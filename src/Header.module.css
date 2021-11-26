@@ -1,16 +1,14 @@
 .navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     color: white;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 33%;
     
 }
 
 .logo {
-    width: 80px;
-    display: auto;
+    height: 80px;
 }
