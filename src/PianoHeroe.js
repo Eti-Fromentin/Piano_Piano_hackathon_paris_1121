@@ -2,14 +2,18 @@ import React, { useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import "swiper/swiper-bundle.min.css";
-
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-import "./PianoHeroe.css";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
+import PianoKeyboard from './piano'
+
+import "./PianoHeroe.css";
+
 function PianoHeroe() {
+
+    
   const lettresDeHélise = ["G", "T", "G", "T", "G", "S", "F", "D", "Q"];
   const [displayCard, setDisplayCard] = useState(false);
 
@@ -24,7 +28,7 @@ function PianoHeroe() {
       </button>
       {displayCard &&   <div class="lineA">
       <Swiper
-          spaceBetween={1}
+          spaceBetween={30}
           centeredSlides={true}
           autoplay={{
             delay: 2500,
@@ -48,6 +52,9 @@ function PianoHeroe() {
             })}
         </Swiper>
       </div>}
+      <div className="PianoPiano">
+      <PianoKeyboard />
+      </div>
     </section>
   );
 }
