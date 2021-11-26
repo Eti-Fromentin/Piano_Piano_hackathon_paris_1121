@@ -17,9 +17,9 @@ function App() {
       <Header userName={userName}/>
      <PianoBackground/>
     <Routes>
-      <Route path="/" element={<Welcome setUserName={setUserName} />}/>
+      <Route path="/" element={<Welcome userName={userName} setUserName={setUserName} />}/>
       <Route path="/Playground" element={<PianoKeyboard />} />
-      {/* <Route path="/Piano Hero" element={<PianoHero />} /> */}
+      {/* <Route path="/Training" element={<PianoHero />} />  */}
     </Routes>
     </div>
   );

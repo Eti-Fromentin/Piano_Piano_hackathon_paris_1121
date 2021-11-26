@@ -5,9 +5,8 @@ import UserNameChoice from './UserNameChoice';
 
 import styles from './styles/WelcomePage.module.css';
 
-function Welcome() {
+function Welcome({userName, setUserName}) {
     const [pop, changePop] = useState(false);
-    const [userName, setUserName] = useState('');
 
     const toggle = () => {
         changePop(!pop);
@@ -16,8 +15,6 @@ function Welcome() {
     let navigate = useNavigate();
     
     const GoToPlayground = () => {
-    localStorage.removeItem('username');
-    localStorage.setItem('username', userName);
     navigate("/Playground");
 };
 

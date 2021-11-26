@@ -14,3 +14,7 @@
     height: 80px;
     margin-left: 0;
 }
+
+a:hover {
+    color: rgb(146, 190, 218);
+  }

@@ -3,9 +3,7 @@ import logo from './assets/logo.png'
 import styles from './styles/Header.module.css'
 import {NavLink} from 'react-router-dom'
 
-function Header() {
-
-  const userName = localStorage.getItem('username');
+function Header({userName}) {
 
   return (
 
@@ -13,7 +11,7 @@ function Header() {
 
   <NavLink to="/"> <img className={styles.logo} src={logo} alt='logo' /> </NavLink>
   <NavLink to="/Playground">Playground</NavLink>
-  <NavLink to="/Piano Hero">{userName}'s Piano</NavLink>
+  <NavLink to="/Training">{userName}'s Training</NavLink>
 
 </nav>
 );
