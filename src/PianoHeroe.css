@@ -1,103 +1,115 @@
 .damier {
     border : solid black;
     display: flex;
-height: 60vh;
-justify-content: center;
-align-items: center;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
 }
 
-#case {
+.case {
  width: 200px;
  height: 325px;
  border: solid black;
  justify-content: center;
  align-items: center;
  border-radius: 25%;
+ font-weight: bold;
+ font-family: 'Roboto', sans-serif;
+ font-size: 30px;
+ background-color: white;
+ opacity: 70%;
+ 
 }
-.signeQ {
+.case:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+
+}
+
+#signeQ {
    
    display:flex;
    
 }
 
-.signeZ {
+#signeZ {
     border: solid black;
     display: none;
 }
 
-.signeS {
+#signeS {
     border: solid black;
     display: none;
 }
 
-.signeD {
+#signeD {
     border: solid black;
     display: none;
 }
 
-.signeR {
+#signeR {
     border: solid black;
     display: none;
 }
 
-.signeF {
+#signeF {
     border: solid black;
     display: none;
 }
 
-.signeT {
+#signeT {
     border: solid black;
     display: none;
 }
 
-.signeG {
+#signeG {
     border: solid black;
     display: none;
 }
 
-.signeH {
+#signeH {
     border: solid black;
     display: none;
 }
 
-.signeU {
+#signeU {
     border: solid black;
     display: none;
 }
 
-.signeJ {
+#signeJ {
     border: solid black;
     display: none;
 }
 
-.signeI {
+#signeI {
     border: solid black;
     display: none;
 }
 
-.signeK {
+#signeK {
     border: solid black;
     display: none;
 }
 
-.signeO {
+#signeO {
     border: solid black;
     display: none;
 }
 
-.signeL {
+#signeL {
     border: solid black;
     display: none;
 }
-.signeM {
+#signeM {
     border: solid black;
     display: none;
 }
-.signeP {
+#signeP {
     border: solid black;
     display: none;
 }
-.signeù {
+#signeù {
     border: solid black;
     display: none;
 }
