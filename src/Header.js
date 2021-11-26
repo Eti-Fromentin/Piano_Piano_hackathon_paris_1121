@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './assets/logo.png'
-import styles from './Header.module.css'
+import styles from './styles/Header.module.css'
 import {NavLink} from 'react-router-dom'
 
 function Header() {
+
+  const userName = localStorage.getItem('username');
 
   return (
 
@@ -11,7 +13,7 @@ function Header() {
 
   <NavLink to="/"> <img className={styles.logo} src={logo} alt='logo' /> </NavLink>
   <NavLink to="/Playground">Playground</NavLink>
-  <NavLink to="/Piano Hero">Piano Hero</NavLink>
+  <NavLink to="/Piano Hero">{userName}'s Piano</NavLink>
 
 </nav>
 );

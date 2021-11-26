@@ -26,7 +26,7 @@ return(
         <div>
             <h1>Welcome to Piano Piano {userName} !</h1>
         </div>
-        <p> Are you ready to play some notes ? </p>
+        <p> Are you ready to play some 🎶? </p>
 
         <button className={styles.homeButton} onClick={toggle}>
         PLAY

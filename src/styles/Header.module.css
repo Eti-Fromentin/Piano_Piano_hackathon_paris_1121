@@ -2,13 +2,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color:black;
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     
 }
 
 .logo {
     height: 80px;
+    margin-left: 0;
 }

@@ -20,7 +20,7 @@ display: block;
     color: #f3f3f3;
     cursor: pointer;
     transition: all 0.7s;
-    background-image: linear-gradient(225deg, #404702 0%, #3c281d 50%, #6f0b00 100%, #e67a00);
+    background-image: linear-gradient(225deg, white 0%, grey 50%, black 100%, #e67a00);
   }
   .homeButton:hover::after {
     transform: rotate(150deg);
@@ -38,7 +38,6 @@ display: block;
     .homeButton {
       display: block;
       margin-top: 45vh;
-      background-image: linear-gradient(225deg, #404702 0%, #3c281d 50%, #6f0b00 100%, #e67a00);
       overflow: hidden;
       border-radius: 30px;
       font-size: xx-large;
