@@ -7,7 +7,7 @@ import "swiper/swiper.min.css";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
-import pianoBis from './pianoBis'
+import PianoBis from "./PianoBis";
 
 import "./PianoHeroe.css";
 
@@ -19,6 +19,7 @@ function PianoHeroe() {
 
   return (
     <section class="damier">
+        <div class="cardandButton">
       <button class="button"
         onClick={() => {
           setDisplayCard(!displayCard);
@@ -31,7 +32,7 @@ function PianoHeroe() {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -52,8 +53,9 @@ function PianoHeroe() {
             })}
         </Swiper>
       </div>}
+      </div>
       <div className="PianoPiano">
-      <pianoBis />
+      <PianoBis />
       </div>
     </section>
   );

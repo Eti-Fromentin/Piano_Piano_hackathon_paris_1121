@@ -4,13 +4,13 @@ import './Background.css'
 
 const PianoBackground = () => {
   return (
-    <div className='App'>
-     <div className='NavBar'></div>
+   
+     <div className='BackgroundContainer'>
        <video className="BackgroundVideo" autoPlay loop muted >
         <source src={Video} type={"video/mp4"}/> 
         </video>
-      <div className="Piano"></div>
-    </div>
+   </div>
+  
   )
 }
 
