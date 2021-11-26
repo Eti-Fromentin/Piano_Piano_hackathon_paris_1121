@@ -12,9 +12,21 @@
 }
 
 .pianoBtnContainer {
-  position: absolute;
+  /* position: absolute; */
   justify-content: center;
   align-items: center;
+  margin-top: 20vh;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width:150px;
+    height: 50px;
+    font-size: large;
+    box-shadow: 10px 5px 5px black;
+    font-weight:bold;
+ font-style: italic;
 }
 
 .ReactPiano__Key {
