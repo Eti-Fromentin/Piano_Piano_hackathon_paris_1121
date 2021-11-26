@@ -1,6 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
 import {Routes, Route} from 'react-router-dom'
 
+>>>>>>> dev
 import Header from './Header.js'
 import PianoBackground from './Components/Background'
 import PianoKeyboard from './piano';
