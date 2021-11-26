@@ -24,9 +24,9 @@ function Welcome() {
 return(
     <div>
         <div>
-            <h1>Welcome {userName} to Piano Piano</h1>
+            <h1>Welcome to Piano Piano {userName} !</h1>
         </div>
-        <p> Are you ready to play some piano notes ? </p>
+        <p> Are you ready to play some notes ? </p>
 
         <button className={styles.homeButton} onClick={toggle}>
         PLAY
