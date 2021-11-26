@@ -11,7 +11,7 @@ function Header({userName}) {
 
   <NavLink to="/"> <img className={styles.logo} src={logo} alt='logo' /> </NavLink>
   <NavLink to="/Playground">Playground</NavLink>
-  <NavLink to="/Training">{userName}'s Training</NavLink>
+  <NavLink to="/Training">Let's Train {userName}!</NavLink>
   <br></br>
 
 </nav>
