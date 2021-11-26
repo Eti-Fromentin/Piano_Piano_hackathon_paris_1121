@@ -75,7 +75,7 @@
 
 }
 
-p {
+.cardLetter {
     opacity: 100%;
     color: black;
     font-weight: bold;

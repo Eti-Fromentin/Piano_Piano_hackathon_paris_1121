@@ -15,7 +15,7 @@ function PianoHeroe() {
 
     
   const lettresDeHélise = ["G", "T", "G", "T", "G", "S", "F", "D", "Q"];
-  const frereJacques = ["H","J","K","H","H","J","K","H","K","O","M","K","O","M","M","P","M","O","K","H","H","D","H","H","D","H"]
+  const frereJacques = ["H","J","K","H","H","J","K","H","K","O","M","K","O","M","M","ù","M","O","K","H","H","D","H","H","D","H"]
   const starWarsMainTheme = ["D","J","H","G","F","D","J","H","G","F","D","J","H","G","H","F"]
   const starWarsDarkTheme = ["K", "K","K", "H","M","K","H","M","K"]
   const [displayCard, setDisplayCard] = useState([]);
@@ -30,11 +30,11 @@ function PianoHeroe() {
           setDisplayCard(lettresDeHélise);
         }}
       >
-        Lettre à Elise
+        Für Elise
       </button>
       <button class="button" onClick={() => {
           setDisplayCard(frereJacques);
-        }}> Frère Jacques</button> 
+        }}> Brother Jacques</button> 
       <button class="button" onClick={() => {
           setDisplayCard(starWarsMainTheme);
         }}> Star Wars Luke</button> 
@@ -58,7 +58,7 @@ function PianoHeroe() {
               return (
                 <SwiperSlide key={index}>
                   <div className="case" key={index}>
-                   <p> {element} </p>
+                   <p className="cardLetter"> {element} </p>
                   </div>
                 </SwiperSlide>
               );
