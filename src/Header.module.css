@@ -1,6 +1,6 @@
 .navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     color: white;
@@ -10,6 +10,5 @@
 }
 
 .logo {
-    width: 80px;
-    display: auto;
+    height: 80px;
 }
