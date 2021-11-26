@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-
 import PianoBis from "./PianoBis";
-import PianoKeyboard from './piano'
 
 import "./PianoHeroe.css";
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 function PianoHeroe() {
 
@@ -32,7 +31,7 @@ function PianoHeroe() {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           pagination={{
