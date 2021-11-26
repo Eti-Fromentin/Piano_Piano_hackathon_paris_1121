@@ -7,6 +7,15 @@
     bottom: 0;
 }
 
+.pianoContainer {
+  position: relative;
+}
+
+.pianoBtnContainer {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
 
 .ReactPiano__Key {
   /* Used for flexbox layout of the child .ReactPiano__NoteLabelContainer elements */

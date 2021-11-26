@@ -1,6 +1,5 @@
-import Header from './Header.js'
-import LandinPage from './LandingPage.js';
 import React from 'react'
+import Header from './Header.js'
 import PianoBackground from './Components/Background'
 
 import './App.css';
