@@ -19,6 +19,7 @@ function PianoHeroe() {
 
   return (
     <section class="damier">
+        <div class="cardandButton">
       <button class="button"
         onClick={() => {
           setDisplayCard(!displayCard);
@@ -52,8 +53,8 @@ function PianoHeroe() {
             })}
         </Swiper>
       </div>}
+      </div>
       <div className="PianoPiano">
-      {/* <PianoKeyboard /> */}
       <PianoBis />
       </div>
     </section>

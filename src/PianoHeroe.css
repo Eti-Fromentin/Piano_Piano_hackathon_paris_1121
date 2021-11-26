@@ -2,7 +2,6 @@
     border : solid black;
     display: flex;
     height: 100vh;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -16,6 +15,12 @@
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
    
+}
+
+.cardandButton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .swiper {
@@ -88,6 +93,8 @@ p {
     box-shadow: 10px 5px 5px black;
     font-weight:bold;
  font-style: italic;
+ margin-top: 10px;
+ margin-bottom: 35px;
 }
 #signeQ {
    
