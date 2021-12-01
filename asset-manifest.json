@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Piano_Piano_hackathon_paris_1121/static/css/main.79d198ca.chunk.css",
+    "main.js": "/Piano_Piano_hackathon_paris_1121/static/js/main.a3150ad6.chunk.js",
+    "main.js.map": "/Piano_Piano_hackathon_paris_1121/static/js/main.a3150ad6.chunk.js.map",
+    "runtime-main.js": "/Piano_Piano_hackathon_paris_1121/static/js/runtime-main.354c0b77.js",
+    "runtime-main.js.map": "/Piano_Piano_hackathon_paris_1121/static/js/runtime-main.354c0b77.js.map",
+    "static/css/2.82de57f7.chunk.css": "/Piano_Piano_hackathon_paris_1121/static/css/2.82de57f7.chunk.css",
+    "static/js/2.30be6a2f.chunk.js": "/Piano_Piano_hackathon_paris_1121/static/js/2.30be6a2f.chunk.js",
+    "static/js/2.30be6a2f.chunk.js.map": "/Piano_Piano_hackathon_paris_1121/static/js/2.30be6a2f.chunk.js.map",
+    "static/js/3.66a8a436.chunk.js": "/Piano_Piano_hackathon_paris_1121/static/js/3.66a8a436.chunk.js",
+    "static/js/3.66a8a436.chunk.js.map": "/Piano_Piano_hackathon_paris_1121/static/js/3.66a8a436.chunk.js.map",
+    "index.html": "/Piano_Piano_hackathon_paris_1121/index.html",
+    "static/css/2.82de57f7.chunk.css.map": "/Piano_Piano_hackathon_paris_1121/static/css/2.82de57f7.chunk.css.map",
+    "static/css/main.79d198ca.chunk.css.map": "/Piano_Piano_hackathon_paris_1121/static/css/main.79d198ca.chunk.css.map",
+    "static/js/2.30be6a2f.chunk.js.LICENSE.txt": "/Piano_Piano_hackathon_paris_1121/static/js/2.30be6a2f.chunk.js.LICENSE.txt",
+    "static/media/Ocean-69949.a2ae3e3e.mp4": "/Piano_Piano_hackathon_paris_1121/static/media/Ocean-69949.a2ae3e3e.mp4",
+    "static/media/logo.eb9ab00b.png": "/Piano_Piano_hackathon_paris_1121/static/media/logo.eb9ab00b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.354c0b77.js",
+    "static/css/2.82de57f7.chunk.css",
+    "static/js/2.30be6a2f.chunk.js",
+    "static/css/main.79d198ca.chunk.css",
+    "static/js/main.a3150ad6.chunk.js"
+  ]
+}
